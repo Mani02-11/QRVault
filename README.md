@@ -9,7 +9,7 @@
 **Name:** Manikandan P  
 **USN:** 25MCAR0186  
 **Subject:** Mobile Application Development Lab  
-**Project Name:** QRVault
+**APP Name:** QRVault
 
 ---
 
