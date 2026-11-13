@@ -9,7 +9,7 @@
 **Name:** Manikandan P  
 **USN:** 25MCAR0186  
 **Subject:** Mobile Application Development Lab  
-**Project Name:** QRVault
+**APP Name:** QRVault
 
 ---
 
@@ -313,7 +313,10 @@ The application launches successfully and displays the home dashboard.
 
 ### Screenshot – Home Dashboard
 
-<!-- Add your actual home screen screenshot here -->
+<img width="400" height="660" alt="1000185103" src="https://github.com/user-attachments/assets/ab095a21-f72c-447e-874e-cca44e1d8f5b" />
+
+<img width="400" height="660" alt="1000185104" src="https://github.com/user-attachments/assets/ac5fcba6-3798-4f78-b870-06a4a96137bc" />
+
 
 ---
 
@@ -344,42 +347,16 @@ The application successfully retrieves and displays device contacts.
 
 ### Screenshot – Contact List
 
-<!-- Add your actual contacts screenshot here -->
+<img width="400" height="660" alt="1000185105" src="https://github.com/user-attachments/assets/35ea706d-cb18-40ef-bda7-770ab9a9d24a" />
+
+<img width="400" height="660" alt="1000185108" src="https://github.com/user-attachments/assets/22860b3e-1fdc-4c84-be35-8a925f32f6ff" />
+
+
 
 ---
 
-## 🧪 Test Case 3 – Contact Search and Selection
 
-### Objective
-
-To verify that users can search and select a contact from the contact list.
-
-### Input
-
-1. Navigate to the Contacts screen.
-2. Enter a contact name in the search bar.
-3. Observe the filtered results.
-4. Select a contact.
-
-### Expected Result
-
-The application should filter matching contacts and display the selected contact's information.
-
-### Actual Result
-
-The application successfully filters and displays the selected contact details.
-
-### Status
-
-✅ **Passed**
-
-### Screenshot – Contact Search and Selection
-
-<!-- Add your actual screenshot here -->
-
----
-
-## 🧪 Test Case 4 – QR Code Generation
+## 🧪 Test Case 3 – QR Code Generation
 
 ### Objective
 
@@ -406,37 +383,11 @@ The application successfully generates and displays the contact QR code.
 
 ### Screenshot – Generated QR Code
 
-<!-- Add your actual QR generator screenshot here -->
+<img width="400" height="660" alt="1000185107" src="https://github.com/user-attachments/assets/2fe9c039-050c-4a39-b2ae-4d930b322e4b" />
+
 
 ---
 
-## 🧪 Test Case 5 – QR Code Scanning and Validation
 
-### Objective
-
-To verify that the generated QR code contains valid contact information and can be recognized by a compatible QR scanner.
-
-### Input
-
-1. Generate a QR code for a selected contact.
-2. Open another smartphone's QR scanner.
-3. Scan the generated QR code.
-4. Verify the decoded contact information.
-
-### Expected Result
-
-The QR scanner should recognize the vCard data and display the contact information, allowing it to be saved as a new contact.
-
-### Actual Result
-
-The generated QR code is successfully recognized by a compatible QR scanner.
-
-### Status
-
-✅ **Passed**
-
-### Screenshot – QR Code Scanning
-
-<!-- Add your actual scanning screenshot here -->
 
 
