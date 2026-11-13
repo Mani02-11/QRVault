@@ -1,0 +1,34 @@
+# Tasks - Build QRVault Android Application
+
+- [x] Configure Dependencies & Base Theme Settings
+  - [x] Add ZXing core dependency in `libs.versions.toml` and `app/build.gradle.kts`
+  - [x] Define color palette in `colors.xml` (Deep Navy Blue, Royal Purple, Electric Blue, Slate accents)
+  - [x] Configure Material 3 DayNight theme in `themes.xml` and `values-night/themes.xml`
+  - [x] Define strings in `strings.xml`
+  - [x] Add FileProvider & permissions in `AndroidManifest.xml` and `res/xml/file_paths.xml`
+- [x] Create UI Drawables & Vectors
+  - [x] Gradient drawables (`bg_splash_gradient`, `bg_banner_gradient`, `btn_primary_gradient`, `bg_qr_frame`, etc.)
+  - [x] Vector drawables for icons (QR logo, corner brackets, quick action badges, bottom navigation items)
+- [x] Implement Database & Models
+  - [x] `ContactModel.kt`
+  - [x] `QRHistoryModel.kt`
+  - [x] `DatabaseHelper.kt` (SQLite helper for `qrvault.db` with CRUD operations)
+- [x] Implement Utility Classes
+  - [x] `QRCodeUtils.kt` (ZXing bitmap encoding & vCard 3.0 generation)
+  - [x] `ImageUtils.kt` (MediaStore gallery saving & FileProvider URI sharing)
+  - [x] `PermissionUtils.kt` (Contact permission runtime helper)
+- [x] Implement Adapters
+  - [x] `ContactAdapter.kt` (Search filter, initial avatar, selection state)
+  - [x] `QRHistoryAdapter.kt` (History item card, QR thumbnail, context menu)
+- [x] Implement UI Screens & Layouts
+  - [x] `SplashActivity.kt` & `activity_splash.xml`
+  - [x] `MainActivity.kt` & `activity_main.xml` with `BottomNavigationView`
+  - [x] `HomeFragment.kt` & `fragment_home.xml` (Dashboard, Stats, Quick actions, Recent QRs)
+  - [x] `ContactsFragment.kt` & `fragment_contacts.xml` (ContentResolver contacts loader, search, floating generate button)
+  - [x] `QRGeneratorActivity.kt` & `activity_qr_generator.xml` (Contact card, framed QR, 4 action buttons, success dialog)
+  - [x] `QRHistoryFragment.kt` & `fragment_qr_history.xml` (SQLite history list, clear all action, context menu)
+  - [x] `QRViewerActivity.kt` & `activity_qr_viewer.xml` (Detailed view for existing history item)
+  - [x] `SettingsFragment.kt` & `fragment_settings.xml` (Theme switcher, clear history, version, privacy, branding card)
+- [x] Build & Verification
+  - [x] Build project using Gradle to verify compilation
+  - [x] Verified zero errors and clean build output

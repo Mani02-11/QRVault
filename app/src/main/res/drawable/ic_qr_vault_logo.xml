@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Top-Left Bracket -->
+    <path
+        android:pathData="M 4,8 V 5 A 1,1 0 0,1 5,4 H 8"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Top-Right Bracket -->
+    <path
+        android:pathData="M 16,4 H 19 A 1,1 0 0,1 20,5 V 8"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Bottom-Left Bracket -->
+    <path
+        android:pathData="M 4,16 V 19 A 1,1 0 0,0 5,20 H 8"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Bottom-Right Bracket -->
+    <path
+        android:pathData="M 16,20 H 19 A 1,1 0 0,0 20,19 V 16"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Center QR Matrix Mock -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7,7h4v4H7z M7,13h4v4H7z M13,7h4v4h-4z M13,13h2v2h-2z M15,15h2v2h-2z M13,15h2v2h-2z" />
+</vector>
